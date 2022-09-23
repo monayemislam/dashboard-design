@@ -1,7 +1,7 @@
 
-const ctx = document.getElementById('salesChart').getContext('2d');
-const myChart = new Chart(ctx, {
-    type: 'bar',
+const salesCtx = document.getElementById('salesChart').getContext('2d');
+const salesCharts = new Chart(salesCtx, {
+    type: 'pie',
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
